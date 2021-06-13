@@ -18,7 +18,7 @@ function App() {
 const createOrder = (order) => {
   alert(`Dear ${order.name}, Thank you for shopping with us\n
    Delivery address: ${order.address} \n
-   Total Amount: ${order.total} \n
+   Total Amount: $ ${order.total} \n
    payment : Cash on delivery \n
    Please check your email "${order.email}" for further details`);
   setItemsInCart({cartItems:[]});
